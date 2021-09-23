@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: 6226f63140d2f814cbadb5cebcb36a80
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4664695737485747861
+    second: timmy_idle_0
+  - first:
+      213: -1677826119301249812
+    second: timmy_idle_1
+  - first:
+      213: 3093032709501595171
+    second: timmy_idle_2
+  - first:
+      213: 5512497671802595518
+    second: timmy_idle_3
+  - first:
+      213: -2892163822389308852
+    second: timmy_idle_4
+  - first:
+      213: -7911531673615982443
+    second: timmy_idle_5
+  - first:
+      213: -7579318110270613381
+    second: timmy_idle_6
+  - first:
+      213: -3060317896001186161
+    second: timmy_idle_7
+  - first:
+      213: 1112066549580380914
+    second: timmy_idle_8
+  - first:
+      213: -8738380516167726127
+    second: timmy_idle_9
+  - first:
+      213: 2423507092997370338
+    second: timmy_idle_10
+  - first:
+      213: -6537596905411937930
+    second: timmy_idle_11
+  - first:
+      213: 4650931069714669580
+    second: timmy_idle_12
+  - first:
+      213: 8092282891177565040
+    second: timmy_idle_13
+  - first:
+      213: -8405216682097755820
+    second: timmy_idle_14
+  - first:
+      213: -5775278425059716408
+    second: timmy_idle_15
+  - first:
+      213: -7954252011095174490
+    second: timmy_idle_16
+  - first:
+      213: -7847463646899117681
+    second: timmy_idle_17
+  - first:
+      213: 4184591847783608751
+    second: timmy_idle_18
+  - first:
+      213: -220683433108096468
+    second: timmy_idle_19
+  - first:
+      213: 5721282993519347058
+    second: timmy_idle_20
+  - first:
+      213: -2519297322651067654
+    second: timmy_idle_21
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: timmy_idle_0
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 549
+        width: 106
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6912edf0fba34fb0800000000000000
+      internalID: -4664695737485747861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_1
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 549
+        width: 105
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce44d24b80a27b8e0800000000000000
+      internalID: -1677826119301249812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 549
+        width: 110
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ea1889cd8acea20800000000000000
+      internalID: 3093032709501595171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 549
+        width: 107
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb826f01d63508c40800000000000000
+      internalID: 5512497671802595518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_4
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 549
+        width: 109
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42df3ea358fcd7d0800000000000000
+      internalID: -2892163822389308852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_5
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 549
+        width: 106
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5902ed42cd7943290800000000000000
+      internalID: -7911531673615982443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 549
+        width: 108
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7892ade55ad0d690800000000000000
+      internalID: -7579318110270613381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_7
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 549
+        width: 106
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86141d76119785d0800000000000000
+      internalID: -3060317896001186161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_8
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 549
+        width: 110
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa355682aade6f00800000000000000
+      internalID: 1112066549580380914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_9
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 549
+        width: 109
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dbc0ade7390bb680800000000000000
+      internalID: -8738380516167726127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_10
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 549
+        width: 106
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e17fbc5cd602a120800000000000000
+      internalID: 2423507092997370338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_11
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 169
+        width: 106
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6797a30904ac545a0800000000000000
+      internalID: -6537596905411937930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_12
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 169
+        width: 109
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00ab2d8a2d6b8040800000000000000
+      internalID: 4650931069714669580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_13
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 169
+        width: 110
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b1c9e2a609d4070800000000000000
+      internalID: 8092282891177565040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_14
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 169
+        width: 106
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459306bd5fbaa5b80800000000000000
+      internalID: -8405216682097755820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_15
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 169
+        width: 109
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c296530fd61adfa0800000000000000
+      internalID: -5775278425059716408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_16
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 169
+        width: 106
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a25cb870f1dc9190800000000000000
+      internalID: -7954252011095174490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_17
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 169
+        width: 110
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8169ca0465381390800000000000000
+      internalID: -7847463646899117681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_18
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 169
+        width: 108
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa133295d18a21a30800000000000000
+      internalID: 4184591847783608751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_19
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 169
+        width: 110
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a37c93699ffecf0800000000000000
+      internalID: -220683433108096468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_20
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 169
+        width: 106
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2754438e194166f40800000000000000
+      internalID: 5721282993519347058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: timmy_idle_21
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 169
+        width: 106
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afa5acfce68a90dd0800000000000000
+      internalID: -2519297322651067654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
