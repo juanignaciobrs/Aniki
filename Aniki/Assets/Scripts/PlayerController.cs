@@ -176,23 +176,25 @@ public class PlayerController : MonoBehaviour
 
     public void animationController()
     {
-       // Debug.Log(isLookingRight);
+        Debug.Log(isLookingRight);
         //if there is ANY movement imput, it leaves ANY idleling state. 
         if (Input.GetKey("up") || Input.GetKey("left") || Input.GetKey("right"))
-         {
+        {
 
-          rb.GetComponent<Animator>().SetBool("isIdlelingRight", false);
-         rb.GetComponent<Animator>().SetBool("isIdlelingLeft", false);
-         }
+            rb.GetComponent<Animator>().SetBool("isIdlelingRight", false);
+            rb.GetComponent<Animator>().SetBool("isIdlelingLeft", false);
+        }
 
         //FLIP CONTROLLER
+        //pl
         if (isTouchingGround == false)
         {
 
-            if(rb.velocity.x < 0)
+            if (rb.velocity.x < 0)
             {
                 gameObject.GetComponent<SpriteRenderer>().flipX = true;
-            } else if(rb.velocity.x > 0)
+            }
+            else if (rb.velocity.x > 0)
             {
                 gameObject.GetComponent<SpriteRenderer>().flipX = false;
             }
@@ -200,11 +202,12 @@ public class PlayerController : MonoBehaviour
             {
 
 
-                if (Input.GetKeyUp("left"))
-                {
-                    gameObject.GetComponent<SpriteRenderer>().flipX = true;
-                }
-                if (Input.GetKeyUp("right"))
+                /*   if (!isLookingRight)
+                   {
+                       gameObject.GetComponent<SpriteRenderer>().flipX = true;
+                   } */
+
+                if (isLookingRight)
                 {
                     gameObject.GetComponent<SpriteRenderer>().flipX = false;
                 }
@@ -212,50 +215,50 @@ public class PlayerController : MonoBehaviour
             }
 
 
-            isLookingRight = false;
+            //  isLookingRight = false;
             rb.GetComponent<Animator>().SetBool("isJumping", true);
         }
 
-       else if (Input.GetKey("right"))
+        else if (Input.GetKey("right"))
         {
             //note
-            
+
             rb.GetComponent<Animator>().SetBool("isWalkingRight", true);
 
- 
+
 
             isLookingRight = true;
         }
         else if (Input.GetKey("left"))
         {
             rb.GetComponent<Animator>().SetBool("isWalkingLeft", true);
-          
+
             isLookingRight = false;
         }
 
-         if (isTouchingGround)
-         {
+        if (isTouchingGround)
+        {
 
             gameObject.GetComponent<SpriteRenderer>().flipX = false;
             rb.GetComponent<Animator>().SetBool("isJumping", false);
             // rb.GetComponent<Animator>().SetBool("idleUp", true);
 
-           
+
 
         }
         if (isTouchingGround && !Input.GetKey("left") && !Input.GetKey("right") && !Input.GetKey("up"))
         {
-         //   Debug.Log("Está tocando el suelo y no hay ninguna tecla pulsada");
-     
+            //   Debug.Log("Está tocando el suelo y no hay ninguna tecla pulsada");
+
             if (isLookingRight)
             {
-             
+
                 rb.GetComponent<Animator>().SetBool("isIdlelingRight", true);
 
             }
-            else if (isLookingRight==false)
+            else if (isLookingRight == false)
             {
-               
+
                 //  Debug.Log("Y por tanto el idle left is TRUE");
 
                 rb.GetComponent<Animator>().SetBool("isIdlelingLeft", true);
@@ -276,16 +279,16 @@ public class PlayerController : MonoBehaviour
         //when you release the button the animation has to stop 
 
         if (Input.GetKeyUp("right"))
-         {
-             rb.GetComponent<Animator>().SetBool("isWalkingRight", false);
-            
+        {
+            rb.GetComponent<Animator>().SetBool("isWalkingRight", false);
+
 
             isLookingRight = true;
-         }
+        }
         if (Input.GetKeyUp("left"))
         {
             rb.GetComponent<Animator>().SetBool("isWalkingLeft", false);
-          
+
 
             isLookingRight = false;
         }
