@@ -5,6 +5,19 @@ using UnityEngine;
 public class TmmyFollowingManager : MonoBehaviour
 {
 
+/*
+---- NPC STATE MACHINE ---
+The main NPC of this gamejam game has three possible actions: 
+JUMPING: Jump on its spot.
+WANDERING: Walk from point a to point b
+DO NOTHING: Standing Still
+
+The three actions are random in order and in duration, giving the NPC a false sensation of having more actions that it actually has. 
+
+For example, even if it  is WANDERING from A to B, the NPC could stop midway to either jumpr or to do nothing.
+
+*/
+
     public float speed;
 
     public Rigidbody2D rb;
@@ -45,10 +58,8 @@ public class TmmyFollowingManager : MonoBehaviour
     private bool isWandering = false;
     private bool isJumping = false;
     private bool isNothing = false;
-
-    //carlos me come los huevos
-
-    // y raúl tb
+    
+    
     private float timer; 
    
 
@@ -73,6 +84,8 @@ public class TmmyFollowingManager : MonoBehaviour
 
         timer += Time.deltaTime;
 
+
+//when the state machine is in this state the NPC will jump and will wait 1  sec before next jump
         if (isJumping && timer >=1f)
         {
             timer = 0;
@@ -88,10 +101,6 @@ public class TmmyFollowingManager : MonoBehaviour
         {
             rb.velocity = Vector2.zero;
         }
-
-        //  StartCoroutine(jump());
-        // wandering();
-
 
 
     }
@@ -255,21 +264,6 @@ public class TmmyFollowingManager : MonoBehaviour
 
 
 
-    /*IEnumerator jump()
-    {
-
-        int jumps = 1;
-
-        if (isGrounded) { 
-        rb.velocity = Vector2.up * jumpForce;
-            
-        }
-
-
-       
-    }*/
-
-
     IEnumerator leTimmyController()
     {
 
@@ -283,6 +277,7 @@ public class TmmyFollowingManager : MonoBehaviour
 
             yield return new WaitForSeconds(2);
 
+//Stablish a random action with a random duration for this NPC to do
 
              tommyController(accion);
 
@@ -300,8 +295,6 @@ public class TmmyFollowingManager : MonoBehaviour
 
 
         Debug.Log("SALTO");
-
-        
 
 
             yield return new WaitForSeconds(2);
